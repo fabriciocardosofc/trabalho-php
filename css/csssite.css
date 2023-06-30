@@ -1,0 +1,80 @@
+/* 
+body: Este estilo define a família de fontes como Arial ou uma fonte alternativa sem serifa e define a margem
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*cabeçalho: Este estilo define a cor de fundo do cabeçalho para uma cor escura, define o preenchimento para 20 pixels e centraliza o conteúdo do cabeçalho.*/
+
+header {
+
+  background-color: rgb(rgb(rgb(1, 1, 2)));
+  padding: 20px;
+  text-align: center;
+  background: url("catedral-de-pedra 1.jpg") center;
+  background-size: cover;
+}
+
+/*nav: Este estilo define a cor de fundo da barra de navegação para um tom específico de vermelho-marrom,exibe os itens de navegação lado a lado com espaço entre eles e define o preenchimento para 10 pixels na parte superior e inferior e 20 pixels na parte inferior esquerda e direita.
+*/
+
+nav {
+	 display: flex;
+ align-items: center;
+  background-color: rgb(137, 50, 16);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.btn-superior {
+	
+}
+
+/* nav ul: Este estilo define o estilo da lista como nenhum, remove qualquer margem e preenchimento da lista não ordenada dentro da barra de navegação e exibe os itens da lista lado a lado.*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+	display: flex;
+    align-items: center;
+}
+
+
+/* nav a: Este estilo define a cor dos links dentro da barra de navegação para branco, remove a decoração do texto e adiciona preenchimento na parte superior e inferior de 10 pixels e 20 pixels à esquerda e à direita.*/
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/*principal: Este estilo define o preenchimento para 20 pixels para o conteúdo principal da página da web.*/
+
+main {
+  padding: 20px;
+}
+
+/*seção: Este estilo adiciona espaço de margem de 20 pixels na parte inferior de cada seção.*/
+
+
+section {
+  margin-bottom: 20px;
+}
+
+/* rodapé: Este estilo define a cor de fundo do rodapé para cinza claro, adiciona preenchimento de 10 pixels e centraliza o conteúdo.*/
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
